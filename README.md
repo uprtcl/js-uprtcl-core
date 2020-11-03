@@ -1,2 +1,3 @@
-# js-uprtcl-modules
-UI Modules to render and interact with _Prtcl evees.
+# js-uprtcl-core
+
+Core \_Prtcl modules
