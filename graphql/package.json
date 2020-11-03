@@ -58,7 +58,7 @@
   "typings": "dist/types/uprtcl-graphql.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/uprtcl/js-uprtcl/"
+    "url": "https://github.com/uprtcl/js-uprtcl-core/"
   },
   "keywords": [
     "modules",
@@ -68,7 +68,7 @@
   ],
   "sideEffects": false,
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=10.0.0 <14"
   },
   "gitHead": "4a694f4b932472046283ecedcd65de631ab08813"
 }
