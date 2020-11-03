@@ -1,10 +1,11 @@
 {
   "packages": [
-    "common-ui",
-    "documents",
-    "evees",
-    "modules/wikis",
-    "demos/simple-editor"
+    "cortex",
+    "graphql",
+    "lenses",
+    "micro-orchestrator",
+    "multiplatform",
+    "redux"
   ],
   "version": "0.0.1-beta.01"
 }
