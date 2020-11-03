@@ -1,13 +1,12 @@
 {
   "name": "@uprtcl/micro-orchestrator",
-  "version": "0.0.1-beta.01",
+  "version": "0.0.1-beta.1",
   "description": "Library to help coordinate different frontend modules to build entire applications from small building blocks",
   "homepage": "https://uprtcl.io",
   "scripts": {
     "clean": "rimraf dist",
     "dev": "rollup -w -c rollup.config.ts",
     "build": "npm run clean && rollup -c rollup.config.ts",
-    "docs:build": "rimraf ../../docs/packages/micro-orchestrator && typedoc && mv ../../docs/.vuepress/api-sidebar-relative.json ../../docs/packages/micro-orchestrator/api/sidebar.json",
     "test": "karma start --coverage",
     "test:watch": "karma start --auto-watch=true --single-run=false"
   },
