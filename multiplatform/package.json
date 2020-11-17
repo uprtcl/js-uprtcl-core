@@ -4,6 +4,7 @@
   "description": "Package to add multiplatform features to applications that deal with content-addressable objects",
   "homepage": "https://uprtcl.io",
   "scripts": {
+    "update-uprtcl": "ncu -u \"/^@uprtcl.*$/\"",
     "clean": "rimraf dist",
     "dev": "rollup -w -c rollup.config.ts",
     "build": "npm run clean && rollup -c rollup.config.ts",
@@ -41,7 +42,8 @@
     "temp-dir": "^2.0.0",
     "ts-loader": "^6.2.2",
     "typescript": "^3.8.3",
-    "webpack": "^4.42.1"
+    "webpack": "^4.42.1",
+    "npm-check-updates": "^10.2.1"
   },
   "main": "dist/uprtcl-multiplatform.umd.js",
   "module": "dist/uprtcl-multiplatform.es5.js",
