@@ -24,10 +24,10 @@ export class CortexEntity extends moduleConnect(LitElement) {
   @property({ attribute: false })
   protected selectedLens!: Lens | undefined;
 
-  protected client: UprtclClient<any> | undefined = undefined;
+  protected client: EveesClient | undefined = undefined;
 
   firstUpdated() {
-    this.client = this.request(UprtclClientModule.bindings.Client);
+    this.client = this.request(EveesClientModule.bindings.Client);
   }
 
   connectedCallback() {

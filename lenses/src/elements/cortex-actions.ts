@@ -36,9 +36,7 @@ export class CortexActions extends moduleConnect(LitElement) {
     this.actions = undefined;
     if (!this.hash) return;
 
-    const client: UprtclClient<any> = this.request(
-      UprtclClientModule.bindings.Client
-    );
+    const client: EveesClient = this.request(EveesClientModule.bindings.Client);
 
     const result = await client.query({
       query: gql`

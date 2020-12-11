@@ -33,9 +33,7 @@ export class CortexLensSelector extends moduleConnect(LitElement) {
     this.lenses = undefined;
     if (!this.hash) return;
 
-    const client: UprtclClient<any> = this.request(
-      UprtclClientModule.bindings.Client
-    );
+    const client: EveesClient = this.request(EveesClientModule.bindings.Client);
 
     const result = await client.query({
       query: gql`

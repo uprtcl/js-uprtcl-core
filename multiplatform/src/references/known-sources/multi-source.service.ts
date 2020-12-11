@@ -30,8 +30,8 @@ export class MultiSourceService {
     protected recognizer: PatternRecognizer,
     @inject(DiscoveryBindings.LocalKnownSources)
     public localKnownSources: KnownSourcesService,
-    @inject(UprtclClientModule.bindings.Client)
-    public client: UprtclClient<any>,
+    @inject(EveesClientModule.bindings.Client)
+    public client: EveesClient,
     @multiInject(CASBindings.CASSource)
     sources: Array<CASSource>,
     @multiInject(DiscoveryBindings.DefaultSource)

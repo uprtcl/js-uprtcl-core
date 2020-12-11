@@ -1,7 +1,6 @@
 {
   "packages": [
     "cortex",
-    "graphql",
     "lenses",
     "micro-orchestrator",
     "multiplatform",
