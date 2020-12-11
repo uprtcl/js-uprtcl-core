@@ -30,8 +30,8 @@ export class MultiSourceService {
     protected recognizer: PatternRecognizer,
     @inject(DiscoveryBindings.LocalKnownSources)
     public localKnownSources: KnownSourcesService,
-    @inject(ApolloClientModule.bindings.Client)
-    public client: ApolloClient<any>,
+    @inject(UprtclClientModule.bindings.Client)
+    public client: UprtclClient<any>,
     @multiInject(CASBindings.CASSource)
     sources: Array<CASSource>,
     @multiInject(DiscoveryBindings.DefaultSource)

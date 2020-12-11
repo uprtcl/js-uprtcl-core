@@ -36,8 +36,8 @@ export class CortexActions extends moduleConnect(LitElement) {
     this.actions = undefined;
     if (!this.hash) return;
 
-    const client: ApolloClient<any> = this.request(
-      ApolloClientModule.bindings.Client
+    const client: UprtclClient<any> = this.request(
+      UprtclClientModule.bindings.Client
     );
 
     const result = await client.query({

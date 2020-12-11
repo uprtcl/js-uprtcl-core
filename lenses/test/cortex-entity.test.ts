@@ -19,7 +19,7 @@ describe('<cortex-entity>', () => {
     orchestrator = new MicroOrchestrator();
 
     await orchestrator.loadModules([
-      new ApolloClientModule(),
+      new UprtclClientModule(),
       new CortexModule(),
       new DiscoveryModule(),
       new LensesModule(),
