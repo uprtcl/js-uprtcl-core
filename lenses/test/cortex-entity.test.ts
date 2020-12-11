@@ -1,7 +1,6 @@
 import { html, fixture, expect } from '@open-wc/testing';
 import { waitUntil } from '@open-wc/testing-helpers';
 
-import { ApolloClientModule } from '@uprtcl/graphql';
 import { MicroOrchestrator } from '@uprtcl/micro-orchestrator';
 import { CortexModule } from '@uprtcl/cortex';
 import { DiscoveryModule } from '@uprtcl/multiplatform';
