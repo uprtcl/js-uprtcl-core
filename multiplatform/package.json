@@ -1,6 +1,6 @@
 {
   "name": "@uprtcl/multiplatform",
-  "version": "0.1.0-beta.4",
+  "version": "0.1.0-beta.5",
   "description": "Package to add multiplatform features to applications that deal with content-addressable objects",
   "homepage": "https://uprtcl.io",
   "scripts": {
@@ -12,9 +12,9 @@
     "test:watch": "karma start --auto-watch=true --single-run=false"
   },
   "dependencies": {
-    "@uprtcl/cortex": "^0.1.0-beta.4",
-    "@uprtcl/graphql": "^0.1.0-beta.4",
-    "@uprtcl/micro-orchestrator": "^0.1.0-beta.4",
+    "@uprtcl/cortex": "^0.1.0-beta.5",
+    "@uprtcl/graphql": "^0.1.0-beta.5",
+    "@uprtcl/micro-orchestrator": "^0.1.0-beta.5",
     "apollo-boost": "^0.4.7",
     "cids": "^1.0.0",
     "graphql": "^14.6.0",
@@ -35,6 +35,7 @@
     "karma-webpack": "^4.0.2",
     "lit-element": "^2.3.1",
     "lit-html": "^1.1.2",
+    "npm-check-updates": "^10.2.1",
     "rimraf": "^2.6.2",
     "rollup": "^2.0.5",
     "rollup-plugin-sourcemaps": "^0.5.0",
@@ -42,8 +43,7 @@
     "temp-dir": "^2.0.0",
     "ts-loader": "^6.2.2",
     "typescript": "^3.8.3",
-    "webpack": "^4.42.1",
-    "npm-check-updates": "^10.2.1"
+    "webpack": "^4.42.1"
   },
   "main": "dist/uprtcl-multiplatform.umd.js",
   "module": "dist/uprtcl-multiplatform.es5.js",
